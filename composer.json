@@ -1,0 +1,22 @@
+{
+    "name": "cnvs/canvas-theme-paper-dark",
+    "description": "Official Dark theme for Canvas.",
+    "keywords": ["canvas", "theme", "base"],
+    "type": "canvas-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Reid",
+            "email": "reliq@reliqarts.com"
+        }
+    ],
+    "extra": {
+        "canvas-theme": {
+            "title": "Dark Paper",
+            "directories": {
+                "public": "public",
+                "views": "resources/views"
+            }
+        }
+    }
+}
