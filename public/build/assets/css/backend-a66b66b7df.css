@@ -27054,7 +27054,7 @@ input#email.form-control {
   max-height: 300px;
 }
 
-.help-block-error {
+.help-block-error, [class*="error"].help-block, .error-help-block {
   display: none !important;
 }
 
