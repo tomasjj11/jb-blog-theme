@@ -1,18 +1,22 @@
 {
-    "name": "cnvs/canvas-theme-paper-dark",
+    "name": "cnvs/paper-dark",
     "description": "Official Dark theme for Canvas.",
-    "keywords": ["canvas", "theme", "base"],
+    "keywords": ["canvas", "theme", "dark"],
     "type": "canvas-theme",
     "license": "MIT",
     "authors": [
         {
             "name": "Patrick Reid",
             "email": "reliq@reliqarts.com"
+        },
+        {
+            "name": "Todd Austin",
+            "email": "austin.todd.j@gmail.com"
         }
     ],
     "extra": {
         "canvas-theme": {
-            "title": "Dark Paper",
+            "title": "Paper Dark",
             "directories": {
                 "public": "public",
                 "views": "resources/views"

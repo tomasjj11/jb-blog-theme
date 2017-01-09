@@ -1,15 +1,13 @@
-# Dark Paper - Canvas Theme
+<a href="http://canvas.toddaustin.io"><img src="https://raw.githubusercontent.com/cnvs/assets/master/paper-dark.jpg"></a>
 
-Official Dark theme for Canvas.
+## About Paper Dark
+
+Paper Dark is a dark version of the default theme for [Canvas](https://github.com/cnvs/canvas). For more information regarding themes in general, check out the [Canvas documentation](https://cnvs.readme.io/docs/themes-overview).
 
 ## Installation
 
-Install this theme via composer:
+Since Canvas comes bundled with Paper Dark out of the box, you don't need to install this theme.
 
-````
-composer require cnvs/canvas-theme-paper-dark
-````
+## License
 
-
----
-Cheers :beers:
+Paper Dark is an open-sourced theme library licensed under the [MIT license](https://opensource.org/licenses/MIT).
