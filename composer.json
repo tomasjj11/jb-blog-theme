@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "cnvs/easel": "3.*"
+        "cnvs/easel": "*"
     },
     "extra": {
         "canvas-theme": {
