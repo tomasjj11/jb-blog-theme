@@ -1,6 +1,6 @@
 {
     "name": "cnvs/paper-dark",
-    "description": "Official Dark theme for Canvas.",
+    "description": "Canvas Dark Theme",
     "keywords": ["canvas", "theme", "dark"],
     "type": "canvas-theme",
     "license": "MIT",
@@ -8,10 +8,6 @@
         {
             "name": "Patrick Reid",
             "email": "reliq@reliqarts.com"
-        },
-        {
-            "name": "Todd Austin",
-            "email": "austin.todd.j@gmail.com"
         }
     ],
     "require": {
