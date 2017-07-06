@@ -31,7 +31,7 @@
 
                     {!! $post->content_html !!}
 
-                    <p class="dts" style="text-align: center"><span style="padding: 10px">&#183;</span><span style="padding: 10px">&#183;</span><span style="padding: 10px">&#183;</span></p>
+                    <p class="dts"><span>&#183;</span><span>&#183;</span><span>&#183;</span></p>
 
                     @include('canvas::frontend.blog.partials.author')
 
