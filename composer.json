@@ -1,6 +1,6 @@
 {
-    "name": "cnvs/paper-dark",
-    "description": "Canvas Dark Theme",
+    "name": "tomasjj11/jb-blog-theme",
+    "description": "JB Total Fitness Theme for Canvas Larvel Framework",
     "keywords": ["canvas", "theme", "dark"],
     "type": "canvas-theme",
     "license": "MIT",
@@ -8,6 +8,10 @@
         {
             "name": "Patrick Reid",
             "email": "reliq@reliqarts.com"
+        },
+        {
+            "name": "Thomas Jordan",
+            "email": "tomasjj11@gmail.com"
         }
     ],
     "require": {
@@ -15,7 +19,7 @@
     },
     "extra": {
         "canvas-theme": {
-            "title": "Paper Dark",
+            "title": "JB Total Fitness Theme",
             "directories": {
                 "public": "public",
                 "views": "resources/views"
