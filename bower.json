@@ -1,0 +1,15 @@
+{
+  "name": "JB Total Fitness Blog - Theme",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Thomas Jordan <tomasjj11@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tomasjj11/jb-blog-theme",
+  "private": true,
+  "dependencies": {
+    "angular": "angularjs#^1.6.6",
+    "angular-material": "^1.1.5"
+  }
+}

@@ -1,0 +1,2 @@
+<script src="vendor/canvas/assets/lib/angular/angular.min.js" type="application/javascript"></script>
+<script src="vendor/canvas/assets/lib/angular-material/angular-material.min.js" type="application/javascript"></script>

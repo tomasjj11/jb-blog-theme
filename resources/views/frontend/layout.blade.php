@@ -8,8 +8,9 @@
     <body>
         @include('canvas::frontend.shared.partials.header')
         @yield('content')
+        @include('canvas::frontend.shared.partials.footer')
         @yield('unique-js')
         @include('canvas::frontend.shared.partials.user-generated-js')
-        @include('canvas::frontend.shared.partials.footer')
+        @include('canvas::frontend.shared.partials.library-js')
     </body>
 </html>
