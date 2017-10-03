@@ -37,31 +37,15 @@
                 </div>
             </div>
             <div layout="row" layout-xs="column" layout-align="center center" class="hide-xs hide-sm">
-                <h1 flex="nogrow" flex-order="5" ng-class="{'logoBlack':!whiteMenuItems}">JB Total Fitness</h1>
-                <md-button class="nav-item" ng-class="{'font-white': whiteMenuItems && !toggleMenuScroll}" flex
-                           flex-order="1" ng-href="/">Home
-                </md-button>
-                <md-button class="nav-item" ng-class="{'font-white': whiteMenuItems && !toggleMenuScroll}" flex
-                           flex-order="2" ng-href="/programs">Programs
-                </md-button>
-                <md-button class="nav-item" ng-class="{'font-white': whiteMenuItems && !toggleMenuScroll}" flex
-                           flex-order="3" ng-href="/about">About
-                </md-button>
-                <md-button class="nav-item" ng-class="{'font-white': whiteMenuItems && !toggleMenuScroll}" flex
-                           flex-order="4" ng-href="/content">Content
-                </md-button>
-                <md-button class="nav-item" ng-class="{'font-white': whiteMenuItems && !toggleMenuScroll}" flex
-                           flex-order="6" ng-href="/coaches">Coaches
-                </md-button>
-                <md-button class="nav-item" ng-class="{'font-white': whiteMenuItems && !toggleMenuScroll}" flex
-                           flex-order="7" ng-href="/contact">Contact
-                </md-button>
-                <md-button class="nav-item" ng-class="{'font-white': whiteMenuItems && !toggleMenuScroll}" flex
-                           flex-order="8" ng-href="https://jbtotalfitness.mypthub.net/login">Login
-                </md-button>
-                <md-button class="nav-item" ng-class="{'font-white': whiteMenuItems && !toggleMenuScroll}" flex
-                           flex-order="9" ng-href="https://jbtotalfitness.mypthub.net/buy-packages">Signup
-                </md-button>
+                <h1 flex="nogrow" flex-order="5" class="logoBlack">JB Total Fitness</h1>
+                <md-button class="nav-item" flex flex-order="1" href="http://jbtotalfitness.co.uk">Home</md-button>
+                <md-button class="nav-item" flex flex-order="2" href="http://jbtotalfitness.co.uk/programs">Programs</md-button>
+                <md-button class="nav-item" flex flex-order="3" href="http://jbtotalfitness.co.uk/about">About</md-button>
+                <md-button class="nav-item" flex flex-order="4" href="http://jbtotalfitness.co.uk/content">Content</md-button>
+                <md-button class="nav-item" flex flex-order="6" href="http://jbtotalfitness.co.uk/coaches">Coaches</md-button>
+                <md-button class="nav-item" flex flex-order="7" href="http://jbtotalfitness.co.uk/contact">Contact</md-button>
+                <md-button class="nav-item" flex flex-order="8" href="https://jbtotalfitness.mypthub.net/login">Login</md-button>
+                <md-button class="nav-item" flex flex-order="9" href="https://jbtotalfitness.mypthub.net/buy-packages">Signup</md-button>
             </div>
         </div>
     </div>

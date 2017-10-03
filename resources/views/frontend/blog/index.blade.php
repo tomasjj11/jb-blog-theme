@@ -12,12 +12,20 @@
 
 @section('content')
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <h2>Blog</h2>
+        <div layout="row" layout-align="space-between stretch">
+            <div flex>
                 @include('canvas::frontend.blog.partials.tag')
                 @include('canvas::frontend.blog.partials.posts')
                 @include('canvas::frontend.blog.partials.paginate-index')
             </div>
+            <md-card flex="30">
+                <md-card-title>
+                    <a href="http://jbtotalfitness.co.uk/content">Free Content</a>
+                </md-card-title>
+                <md-card-content>
+                </md-card-content>
+            </md-card>
         </div>
     </div>
 @stop
