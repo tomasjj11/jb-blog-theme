@@ -11,23 +11,36 @@
 @endif
 
 @section('content')
+
     <article>
+
+        <section class="title" style="background-image: url('{{ asset($post->page_image) }}')">
+            <div class="header-overlay">
+                <div class="container">
+                    <div layout="column" layout-align="center center">
+                        <h2 class="md-display-4 text-center font-white">{{ $post->title }}</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="article-info">
+            <div class="container">
+                <p class="post-page-meta">
+
+                    <md-button class="md-raised" href="/">Back</md-button>
+
+                    {{ \Carbon\Carbon::parse($post->published_at)->diffForHumans() }} &#183; {{ $post->readingTime() }} MIN READ
+                    @if ($post->tags->count())
+                        <br>
+                        {!! join(' ', $post->tagLinks()) !!}
+                    @endif
+                </p>
+            </div>
+        </section>
+
         <div class="container" id="post">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    @if ($post->page_image)
-                        <div class="text-center">
-                            <img src="{{ asset($post->page_image) }}" class="post-hero">
-                        </div>
-                    @endif
-                    <h1 class="post-page-title">{{ $post->title }}</h1>
-                    <p class="post-page-meta">
-                        {{ \Carbon\Carbon::parse($post->published_at)->diffForHumans() }} &#183; {{ $post->readingTime() }} MIN READ
-                        @if ($post->tags->count())
-                            <br>
-                            {!! join(' ', $post->tagLinks()) !!}
-                        @endif
-                    </p>
 
                     {!! $post->content_html !!}
 
@@ -38,6 +51,7 @@
                 </div>
             </div>
         </div>
+
     </article>
 
     @include('canvas::frontend.blog.partials.paginate-post')

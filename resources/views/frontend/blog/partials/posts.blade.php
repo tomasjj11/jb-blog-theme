@@ -1,8 +1,10 @@
 <div layout="row" layout-xs="column" layout-wrap layout-align="space-between stretch" class="xs-flex-none post-previews">
     @foreach ($posts as $key => $post)
 
-        <md-card class="xs-flex-none post-preview" layout="column" flex="45" flex-sm="50" flex-xs="100">
-            <div class="md-card-image post-preview-image" style="background-image: url('{{ asset($post->page_image) }}');"></div>
+        <md-card class="xs-flex-none post-preview" layout="column" flex="45" flex-xs="100">
+            @if ( $post->page_image )
+                <div class="md-card-image post-preview-image" style="background-image: url('{{ asset($post->page_image) }}');"></div>
+            @endif
 
             <md-card-title flex="nogrow">
                 <a href="{{ $post->url($tag) }}">{{ $post->title }}</a>
